@@ -24,8 +24,8 @@ const Productcard = (props) => {
                 <div className="itemname">{main.itemName}</div>
                 <div className="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="fifthstar"></i></div>
                 <div className="price">
-                    <div className="currentprice">{main.itemPrice}</div>
-                    <div className="realprice">{main.realPrice}</div>
+                    <div className="currentprice">${main.itemPrice}</div>
+                    <div className="realprice">${main.realPrice}</div>
                 </div>
             </div>
         </>
