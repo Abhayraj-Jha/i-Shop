@@ -88,7 +88,7 @@ const Mininavbar = () => {
                             <option value="Mac">MAC</option>
                             <option value="iPhone">iPHONE</option>
                             <option value="iPad">iPAD</option>
-                            <option value="iPhone">ACCESSORIES</option>
+                            <option value="Accessories">ACCESSORIES</option>
                         </select>
                     </div>
                 {/* </div> */}
